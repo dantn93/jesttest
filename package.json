@@ -1,0 +1,29 @@
+{
+  "name": "jesttest",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "16.4.1",
+    "react-native": "0.56.0",
+    "react-navigation": "^2.11.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-rc.1",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^23.4.2",
+    "babel-preset-react-native": "^5",
+    "jest": "^23.5.0",
+    "react-native-jest-mocks": "^1.4.0",
+    "react-test-renderer": "^16.4.2"
+  },
+  "jest": {
+    "preset": "react-native",
+    "setupFiles": [
+      "./jest-setup.js"
+    ]
+  }
+}
